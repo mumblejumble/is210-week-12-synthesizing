@@ -7,5 +7,5 @@ class CustomError(Exception):
     """CustomError Class"""
     def __init__(self, cause):
         """Class constructor"""
-        Exception.__init__(self, cause):
+        Exception.__init__(self)
         self.cause = cause
